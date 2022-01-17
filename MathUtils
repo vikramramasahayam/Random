@@ -7,10 +7,17 @@ public class MathUtils {
         final int j = 20;
         final int result = add(i, j);
         System.out.println("Result of addition : " + result);
+        final int multiplyResult = multiply(i, j);
+        System.out.println("Multiply Results : " + multiplyResult);
     }
 
     public static int add(final int i, final int j) {
         final int k = i + j;
+        return k;
+    }
+
+    public static int multiply(final int i, final int j) {
+        final int k = i * j;
         return k;
     }
 
